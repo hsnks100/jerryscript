@@ -468,6 +468,7 @@ int
 main (int argc,
       char **argv)
 {
+    printf("hello`~~\n");
   srand ((unsigned) jerry_port_get_current_time ());
   JERRY_VLA (const char *, file_names, argc);
   int files_counter = 0;
